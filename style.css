@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-image: url("photos/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMDktYWV3LTAxM18xXzEuanBn.webp");
+       background-repeat: none;
+       background-size: cover;
+  
+}
+.container{
+    margin: 100px 70px;
+    padding: 50px;
+    width: 500px;
+    height: 300px;
+
+}
+h1{
+    color: aliceblue;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 20px; padding-bottom: 10px;
+    font-weight: 100;
+    border-bottom:1px solid rgb(113, 113, 215);
+ color: rgb(124, 70, 190); 
+   
+}
+.content img{ 
+      width: 50px;
+      height: 40px;
+      right: 0px;
+}
+#inputbox{
+    outline: none;border: none;
+    background-color: transparent;
+    text-align: center;
+}
+.content{
+    margin-top: 30px;
+    width: 400px;
+    
+    margin-top: 10px;
+    width: 400px;
+    color: rgb(12, 12, 12);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;cursor: pointer;
+}
+.buttonbox img{
+    width: 50px;
+    height: 40px;
+    color: #fff;
+}
+.buttonbox{
+    /* margin-top: 10px; */
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+   padding: 3px;border-radius: 5px;
+    align-items: center;
+    background-color: #573198;
+}
+.buttonbox button{
+    background-color: transparent;text-align: center;
+    font-size: 23px; color: aliceblue;
+    font-weight: 100; outline: none;border: none;
+    cursor: pointer;
+}
+.buttonbox:hover{
+    background-color: #350952;
+}
